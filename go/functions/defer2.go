@@ -30,6 +30,7 @@ func createFile(filename, content string) {
         return
     }
 
+    // beware len() on strings in general (UTF encoding)...
     if numWritten != len(content) {
         fmt.Println("Incorrect number of bytes written!")
         return
