@@ -23,7 +23,6 @@ func main() {
     if !ok { 
         fmt.Println("Eve is not in the map.")
     } else {
-        fmt.Println("Eve:",id)
+        fmt.Println("Eve:", id)
     }
-    
 }
